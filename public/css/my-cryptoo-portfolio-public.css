@@ -1,0 +1,31 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.mcp-crypto-table table {
+  border: solid 1px #ddeeee;
+  border-collapse: collapse;
+  border-spacing: 4;
+  padding: 4px;
+  font: normal 12px Arial, sans-serif;
+}
+.mcp-crypto-table thead th {
+  background-color: #ddefef;
+  border: solid 1px #ddeeee;
+  min-width: 200px;
+  color: #336b6b;
+  padding: 10px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #fff;
+}
+.mcp-crypto-table tbody td {
+  border: solid 1px #ddeeee;
+  color: #333;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.mcp-crypto-table td {
+  font-size: 12px;
+}
