@@ -177,10 +177,10 @@ class My_Cryptoo_Portfolio_Widget extends WP_Widget {
 					 if($myBalance_units == null){ 
 						 $myBalance_units = 0.0; 
 						}
-					 if(!is_float($myBalance_units)){ 
+					 /*if(!is_float($myBalance_units)){ 
 						 $myBalance_units = 0.0; 
 						 echo  "Error: Use decimal format ";
-						}
+						}*/
 					 echo number_format($myBalance_units,7);//holdings
 				  } 
 				?>
