@@ -174,6 +174,7 @@ class My_Cryptoo_Portfolio_Widget extends WP_Widget {
 				<?php
 				  if ($coinHeld) {
 					 $myBalance_units = $myCoins[$thisCoinSymbol]['balance'];
+					 if($myBalance_units == null){ $myBalance_units = 0.0; }
 					 echo number_format($myBalance_units,7);//holdings
 				  } 
 				?>
